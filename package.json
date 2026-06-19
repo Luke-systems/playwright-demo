@@ -1,0 +1,17 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "End-to-end Playwright test suite for SauceDemo — an AI-accelerated QA portfolio demo.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "qa", "test-automation"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0"
+  }
+}
