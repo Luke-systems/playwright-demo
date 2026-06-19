@@ -1,5 +1,7 @@
 # Playwright E2E Demo — SauceDemo
 
+[![Playwright Tests](https://github.com/Luke-systems/playwright-demo/actions/workflows/playwright.yml/badge.svg)](https://github.com/Luke-systems/playwright-demo/actions/workflows/playwright.yml)
+
 An end-to-end test suite for [SauceDemo](https://www.saucedemo.com) (a public e-commerce
 practice app), built with [Playwright](https://playwright.dev) and TypeScript. It covers the
 core purchase journey — **login → add to cart → checkout** — using the page-object pattern and
